@@ -19,4 +19,4 @@ services:
       target: /etc/nginx/nginx.conf
     networks: lbg-python-net
 networks:
-  lbg-python-net:
+  - lbg-python-net:
