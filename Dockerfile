@@ -10,10 +10,6 @@ COPY . .
 RUN pip3 install -r requirements.txt 
 
 
-# Set YOUR_NAME environment variable
-
-ENV YOUR_NAME=jannetteENV
-
 # Expose the correct port
 
 EXPOSE 5000
